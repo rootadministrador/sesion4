@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body bgcolor="#173533">
+<div id="controles" align="center">
+<audio  id="audioTest" src="Kalimba.mp3">
+	su navegador no soporta  audio
+</audio>   
+	<button onclick="document.getElementById('audioTest').play();">ejecutar</button>	
+	<button onclick="document.getElementById('audioTest').pause();">pausa</button><br>
+	<button onclick="document.getElementById('audioTest').volume+=0.1;">Vol+</button>
+	<button onclick="document.getElementById('audioTest').volume-=0.1;">Vol-</button><br>
+	<button onclick="document.getElementById('audioTest').volume=0;">Mute</button>
+	<button onclick="document.getElementById('audioTest').src='Sleep.mp3';document.getElementById('audioTest').play();">cambiar</button>
+</div>
+<div id="video_" align="center">
+	<video  id="videoTest" src="https://www.w3schools.com/html/mov_bbb.ogg" width="50%" height="30%"></video><br>
+	<button onclick="document.getElementById('videoTest').play();">play</button>
+	<button onclick="document.getElementById('videoTest').pause();">pausa</button>
+</div>
+</body>
+</html>
